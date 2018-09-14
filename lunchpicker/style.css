@@ -1,6 +1,9 @@
 body{
     text-align: center;
+    background-color: lightgoldenrodyellow;
 }
 li{
-    text-align:left
+    text-align:left;font-size: 20px
 }
+h1{color:blue}
+

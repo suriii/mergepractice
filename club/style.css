@@ -1,23 +1,26 @@
 body{
     text-align: center;
-}
-
-table{
-    width: 70%;
-    margin:auto;
-    font-size: 1.5em;
+	background-image: url("images/tree.jpg");
+   
     
 }
+table{
+    width: 60%;
+    margin: auto;
+    font-size: 1.3em;
+    border-collapse: collapse;}
 
 
 td{
-    border-bottom: 1px solid green;
-    border:5px #FFAC55 solid;
+    border-bottom: 1px dashed gray;
+    padding: 5px 0px;
 }
-th{
-    border-bottom: 1px solid red;
-    border-right:8px red double;
-    border-left:7px yellow dotted;
-    
-    };
+
+td.even{
+    /* border-bottom: 2px dashed brown; */
+    background-color: darkseagreen;color:aliceblue
+	
+}
+
+}
 

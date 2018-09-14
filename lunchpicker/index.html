@@ -1,24 +1,46 @@
 <!doctype html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Untitled Document</title>
+    <title>Dinnerpicker</title>
     <link rel="stylesheet" href="style.css">
+	
+    <script type="text/javascript" async src="https://ssl.google-analytics.com/ga.js">
+        </script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="main.js"></script>      
+	<script src="main.js"></script>  
+    <script src="js/analytics.js" type="text/javascript"></script>
+	
+    
 </head>
 <body>
-    <h1>?</h1>
-    <input type="button" value="今天中午吃什麼？">
+    <h1>請選擇</h1>
+    <input type="button" value="今天中餐吃什麼？" style="font-size: 30px;color:red" >
+	 <hr size="1">
     <ul>
         <li>拉麵</li>
         <li>滷肉飯</li>
         <li>水餃</li>
-    
+        <li>蚵仔煎</li>
+		<li>泡菜鍋</li>
+		<li>豬排咖哩飯</li>
+		
     </ul>
-           
-
-
+    
+   
+    
+    <marquee direction="left" height="300" width="800" scrollamount="5" 
+			     onMouseOver="stop()" onMouseOut="start()"       >
+		
+    <img src="images/lamen.jpg"/>
+    <img src="images/lorofan.jpg"/>
+    <img src="images/reikei.jpg"/>
+	<img src="images/oror.jpg"/>
+	<img src="images/kichi.jpg"/>
+	<img src="images/cali.jpg"/>
+			
+			
+    </marquee>
 
 </body>
 </html>

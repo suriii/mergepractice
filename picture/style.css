@@ -1,5 +1,6 @@
 body{
     text-align: center;
+    background-color: beige;
 }
 canvas{border:2px solid black;
     background-image: url(images/grasses68.gif);
