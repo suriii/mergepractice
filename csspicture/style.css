@@ -1,0 +1,115 @@
+
+
+div#sun{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color:yellow;
+    border: 2px solid lightyellow;
+    box-shadow: 10px 10px 50px lightyellow;
+    transition: 2s;
+      
+
+}
+
+div#sun:hover{
+    width: 200px;
+    height: 200px;
+}
+
+div#cow{
+    width: 555px;
+    height: 375px;
+    background-image:url(imagesss/cow.png) ;
+    position: absolute;
+    top:500px;
+    left:0px;}
+
+body{
+        background-image: url(imagesss/grass_blue_sky_background.jpg) ;
+    
+        
+    width: 50px;
+    height: 50px;;
+    border-radius: 50px;
+    
+    background-repeat: no-repeat;}
+
+div#rail{
+    width: 850px;
+    height: 220px;
+    background-image:url(imagesss/rail.png) ;
+    position: absolute;
+    top:650px;
+    left:0px;}
+
+div#tower{
+    width: 900px;
+    height: 800px;
+    background-image:url(imagesss/lookout_tower.png) ;
+    background-repeat: no-repeat;
+    position: absolute;
+    top:400px;
+    right:-200px;}
+div#wind{
+    width: 300px;
+    height: 300px;
+    background-image:url(imagesss/windmill-clip.png) ;
+    background-repeat: no-repeat;
+    position: absolute;
+    top:249px;
+    right:420px;}
+.bird{
+    width: 150px;
+    height: 150px;
+    background-size: 150px 150px;
+    background-image:url(imagesss/bird.png) ;
+    background-repeat: no-repeat;
+    position: absolute;
+    top:-50px;
+    left:0px;
+    animation: example 8s linear infinite;
+    z-index: -1;
+}
+#bird-t
+{
+    position: relative;
+    animation: example1 .5s linear infinite;
+}
+.bird-1{
+    animation-delay: 0s;
+}
+.bird-2{
+    animation-delay: 1s;
+}
+.bird-3{
+    animation-delay: 2s;
+}
+  /* Standard syntax */
+@keyframes example {
+    0%   { left:0vw; top:0px; transform: rotateY(0deg)}
+    49%   { left:80vw; top:0px; transform: rotateY(0deg)}
+    /*25%  { left:200px; top:200px;}
+    50%  { left:400px; top:400px;}
+    75%  { left:-200px; top:-200px;}*/
+    50% { left:80vw; top:0px; transform: rotateY(180deg)}
+    100% { left:0vw; top:0px; transform: rotateY(180deg)}
+}
+
+@keyframes example1 {
+    0%,100%   {top:-50px;}
+    /*25%  { left:200px; top:200px;}*/
+    33%  {top:-20px;}
+    /*75%  { left:-200px; top:-200px;}*/
+    66% {top:-80px;}
+}
+ 
+  
+       
+    
+
+       
+
+
+    
+    
